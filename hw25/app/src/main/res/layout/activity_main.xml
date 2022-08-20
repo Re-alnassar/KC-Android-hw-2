@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/PHONE"
+        android:layout_width="249dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="150dp"
+        android:ems="10"
+        android:hint="Phone number:"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EMAIL"
+        android:layout_width="249dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="219dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/JOB"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="292dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Job:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/AGE"
+        android:layout_width="249dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="369dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Age:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/NAME"
+        android:layout_width="246dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="447dp"
+        android:ems="10"
+        android:hint="Name:"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="82dp"
+        android:text="next"
+        android:textSize="20sp" />
+</RelativeLayout>
